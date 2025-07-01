@@ -41,3 +41,21 @@ p {
     box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* Subtle shadow for depth */
 }
 
+/* Center the h3 heading inside the profile card */
+.profile-card h3 {
+    text-align: center; /* Center-align h3 headings within the profile card */
+}
+
+/* Style the list inside the profile card */
+.profile-card ul {
+    list-style: none;           /* Remove bullet points */
+    padding: 0;                 /* Remove default padding */
+    margin: 20px 0 0 0;         /* Add spacing above the list */
+    text-align: center;         /* Center the list items and links */
+}
+
+.profile-card ul li {
+    margin: 12px 0;             /* Add vertical spacing between list items */
+    display: block;             /* Display each list item on a new line */
+}
+
