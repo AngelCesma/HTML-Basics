@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap'); /* Import Roboto font from Google Fonts */
+
+/* Set the background color and base font for the page */
+body {
+    background-color: lightblue; /* Light blue background for the whole page */
+    font-family: 'Roboto', Arial, sans-serif; /* Use Roboto as the main font, fallback to Arial or sans-serif */
+}
+
+/* Center all h1 and h2 headings */
+h1, h2 {
+    text-align: center; /* Center-align headings */
+}
+
+/* Style for the main heading */
+h1 {
+    font-size: 40px; /* Large font size for h1 */
+    color: #003366; /* Dark blue color for h1 */
+}
+
+/* Style for the subheading */
+h2 {
+    font-size: 32px; /* Slightly smaller font size for h2 */
+    color: slategrey; /* Slate grey color for h2 */
+}
+
+/* Style for paragraph text */
+p {
+    font-size: 20px; /* Medium-large font size for readability */
+    line-height: 1.6; /* Add space between lines for better legibility */
+    text-align: center; /* Center-align paragraph text */
+}
+
+/* Profile card styles */
+.profile-card {
+    background: #fff; /* White background for the card */
+    border: 2px solid #003366; /* Solid dark blue border */
+    border-radius: 12px; /* Rounded corners */
+    max-width: 400px; /* Maximum width of the card */
+    margin: 40px auto; /* Center the card horizontally and add vertical space */
+    padding: 32px 24px; /* Space inside the card */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* Subtle shadow for depth */
+}
+
